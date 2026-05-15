@@ -124,7 +124,7 @@ No method of transmission over the internet is fully secure; while we strive to 
 
 Questions, requests, or complaints about this Privacy Policy can be sent to:
 
-**Email:** `[your-contact-email@example.com]`
+**Email:** `termobaby@gmail.com`
 
 Please use the subject line "Alien Chain Reaction Privacy" so we can route the request promptly.
 
