@@ -107,7 +107,7 @@
 <h1>Privacy Policy</h1>
 <p class="meta">
   <strong>Effective Date:</strong> 2026-05-15 &nbsp;·&nbsp;
-  <strong>Last Updated:</strong> 2026-05-15
+  <strong>Last Updated:</strong> 2026-06-08
 </p>
 
 <p>This Privacy Policy describes how <strong>Alien Chain Reaction</strong> (&ldquo;the App&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) collects, uses, and discloses information when you use our mobile game on Android or iOS.</p>
@@ -137,7 +137,7 @@
 </ul>
 
 <h3>1.3 Advertising identifier</h3>
-<p>To show rewarded video advertisements (e.g. when you choose to watch an ad in exchange for an extra rocket), we use the Unity LevelPlay advertising SDK, which accesses your device's <strong>Advertising ID</strong> (AAID on Android, IDFA on iOS). This identifier:</p>
+<p>To show advertisements &mdash; primarily rewarded video (e.g. when you choose to watch an ad in exchange for an extra rocket), and occasional full-screen ads between games &mdash; we use <strong>Google AdMob</strong> (the Google Mobile Ads SDK), which accesses your device's <strong>Advertising ID</strong> (AAID on Android, IDFA on iOS). This identifier:</p>
 <ul>
   <li>Is set by your operating system, not by us</li>
   <li>Can be reset or disabled by you at any time in your device settings</li>
@@ -186,10 +186,10 @@
       <td><a href="https://policies.google.com/privacy">link</a></td>
     </tr>
     <tr>
-      <td>Unity LevelPlay (Ads Mediation)</td>
-      <td>Unity Technologies / ironSource</td>
-      <td>Rewarded video advertising</td>
-      <td><a href="https://www.is.com/legal/privacy-policy/">link</a></td>
+      <td>Google AdMob (Google Mobile Ads)</td>
+      <td>Google LLC</td>
+      <td>Rewarded and interstitial advertising</td>
+      <td><a href="https://policies.google.com/privacy">link</a></td>
     </tr>
     <tr>
       <td>Google Play Services</td>
@@ -239,7 +239,265 @@
 <hr>
 
 <h2>7. Security</h2>
-<p>We rely on the security measures of Google Firebase and Unity LevelPlay, both of which use industry-standard encryption in transit (TLS) and at rest. The App itself does not store sensitive personal data on your device.</p>
+<p>We rely on the security measures of Google Firebase and Google AdMob, both of which use industry-standard encryption in transit (TLS) and at rest. The App itself does not store sensitive personal data on your device.</p>
+<p>No method of transmission over the internet is fully secure; while we strive to protect your data, we cannot guarantee absolute security.</p>
+
+<hr>
+
+<h2>8. Contact Us</h2>
+<p>Questions, requests, or complaints about this Privacy Policy can be sent to:</p>
+<p><strong>Email:</strong> <code>termobaby@gmail.com</code></p>
+<p>Please use the subject line &ldquo;Alien Chain Reaction Privacy&rdquo; so we can route the request promptly.</p>
+
+<hr>
+
+<h2>9. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Material changes will be announced in-app and will require renewed consent where required by law. The &ldquo;Last Updated&rdquo; date at the top reflects the most recent revision.</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Alien Chain Reaction</title>
+<style>
+  :root {
+    --bg: #0b0f1f;
+    --panel: #131a32;
+    --text: #e6e9f2;
+    --muted: #a4abc2;
+    --accent: #4ec9b0;
+    --accent-soft: #2b6e60;
+    --border: #1f2747;
+    --table-stripe: #181f3d;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    color: var(--accent);
+    font-size: 2.1rem;
+    margin: 0 0 8px;
+    letter-spacing: 0.5px;
+  }
+  h2 {
+    color: var(--text);
+    font-size: 1.35rem;
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    color: var(--accent);
+    font-size: 1.05rem;
+    margin: 24px 0 8px;
+    font-weight: 600;
+  }
+  p { margin: 0 0 14px; }
+  ul, ol { margin: 0 0 14px; padding-left: 24px; }
+  li { margin-bottom: 4px; }
+  strong { color: #fff; }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+  a:hover { color: #fff; border-bottom-color: #fff; }
+  code {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.92em;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 32px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 18px;
+    font-size: 0.95rem;
+    background: var(--panel);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--accent-soft);
+    color: #fff;
+    font-weight: 600;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--table-stripe); }
+  .meta {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+  }
+  .meta strong { color: var(--text); }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">
+  <strong>Effective Date:</strong> 2026-05-15 &nbsp;·&nbsp;
+  <strong>Last Updated:</strong> 2026-06-08
+</p>
+
+<p>This Privacy Policy describes how <strong>Alien Chain Reaction</strong> (&ldquo;the App&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) collects, uses, and discloses information when you use our mobile game on Android or iOS.</p>
+
+<p>By installing or using the App, you agree to the practices described in this policy. If you do not agree, please uninstall the App and refrain from using it.</p>
+
+<hr>
+
+<h2>1. Information We Collect</h2>
+<p>We collect a <strong>minimal amount of anonymous data</strong> to operate the App, fix bugs, and serve advertising. We do <strong>not</strong> collect your name, email address, phone number, contacts, photos, location, or any other personally identifying information.</p>
+
+<h3>1.1 Gameplay analytics</h3>
+<p>When you play, the App sends anonymous event records to Google Firebase Analytics. Examples of events:</p>
+<ul>
+  <li>A level was started or completed</li>
+  <li>A continuation (revive) was offered, accepted, or declined</li>
+  <li>Aggregated session counts and screen views</li>
+</ul>
+<p>These events do not contain any information that identifies you personally.</p>
+
+<h3>1.2 Crash diagnostics</h3>
+<p>If the App crashes or encounters an unrecoverable error, Google Firebase Crashlytics receives a crash report containing:</p>
+<ul>
+  <li>The error message and call stack</li>
+  <li>Device model, operating system version, and App version</li>
+  <li>An anonymous Firebase Installation ID, which lets us count unique affected devices but does not identify you</li>
+</ul>
+
+<h3>1.3 Advertising identifier</h3>
+<p>To show advertisements &mdash; primarily rewarded video (e.g. when you choose to watch an ad in exchange for an extra rocket), and occasional full-screen ads between games &mdash; we use <strong>Google AdMob</strong> (the Google Mobile Ads SDK), which accesses your device's <strong>Advertising ID</strong> (AAID on Android, IDFA on iOS). This identifier:</p>
+<ul>
+  <li>Is set by your operating system, not by us</li>
+  <li>Can be reset or disabled by you at any time in your device settings</li>
+  <li>Is used by advertising networks to limit ad frequency and serve more relevant content</li>
+</ul>
+
+<h3>1.4 Automatically collected technical data</h3>
+<p>Firebase services and the Google Play Services framework collect standard device data such as: device type, OS version, language, country (derived from IP at request time, not stored as exact location), and app version. We use this data in aggregate form only.</p>
+
+<hr>
+
+<h2>2. How We Use the Information</h2>
+<ul>
+  <li>Operate, maintain, and improve the App</li>
+  <li>Identify and fix crashes and bugs</li>
+  <li>Understand how players progress through levels so we can improve game balance</li>
+  <li>Serve and pay for the rewarded video advertisements that fund continued development</li>
+  <li>Comply with legal obligations and protect against fraud or abuse</li>
+</ul>
+<p>We <strong>do not</strong> sell, rent, or trade your information.</p>
+
+<hr>
+
+<h2>3. Third-Party Services</h2>
+<p>The App uses the following third-party services. Each has its own privacy policy that governs how it handles data:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Service</th>
+      <th>Provider</th>
+      <th>Purpose</th>
+      <th>Policy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firebase Analytics</td>
+      <td>Google LLC</td>
+      <td>Anonymous gameplay analytics</td>
+      <td><a href="https://policies.google.com/privacy">link</a></td>
+    </tr>
+    <tr>
+      <td>Firebase Crashlytics</td>
+      <td>Google LLC</td>
+      <td>Crash diagnostics</td>
+      <td><a href="https://policies.google.com/privacy">link</a></td>
+    </tr>
+    <tr>
+      <td>Google AdMob (Google Mobile Ads)</td>
+      <td>Google LLC</td>
+      <td>Rewarded and interstitial advertising</td>
+      <td><a href="https://policies.google.com/privacy">link</a></td>
+    </tr>
+    <tr>
+      <td>Google Play Services</td>
+      <td>Google LLC</td>
+      <td>Platform support, advertising ID</td>
+      <td><a href="https://policies.google.com/privacy">link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>4. Children's Privacy</h2>
+<p>The App is <strong>not directed at children under the age of 13</strong> (or the equivalent age of digital consent in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided us with information, please contact us so we can remove it.</p>
+<p>The App is rated for a general teen and adult audience. Parental controls on the operating system can be used to restrict access.</p>
+
+<hr>
+
+<h2>5. International Users — GDPR and CCPA</h2>
+
+<h3>5.1 European Economic Area / United Kingdom (GDPR)</h3>
+<p>If you are in the EEA or UK, the legal basis for processing your data is:</p>
+<ul>
+  <li><strong>Legitimate interest</strong> for crash diagnostics and basic operational analytics</li>
+  <li><strong>Consent</strong> for advertising personalization and non-essential analytics</li>
+</ul>
+<p>Before any non-essential data is collected, the App shows a consent dialog. You can withdraw consent at any time through the in-app settings; doing so will disable personalized advertising and detailed analytics. You have the following rights under GDPR:</p>
+<ul>
+  <li>Right of access, rectification, erasure, restriction, portability, and objection</li>
+  <li>Right to lodge a complaint with your local data protection authority</li>
+</ul>
+<p>To exercise these rights, contact us using the details in Section 8.</p>
+
+<h3>5.2 California Residents (CCPA / CPRA)</h3>
+<p>California residents have the right to know what categories of personal information have been collected, to request deletion, and to opt out of the &ldquo;sale&rdquo; of personal information. We do not sell personal information in the traditional sense; however, the sharing of advertising identifiers with advertising partners may fall under the CCPA definition of &ldquo;sharing for cross-context behavioral advertising.&rdquo; You can opt out through the in-app consent settings.</p>
+
+<hr>
+
+<h2>6. Data Retention</h2>
+<ul>
+  <li><strong>Firebase Analytics</strong>: events are retained for <strong>14 months</strong> by default, then automatically deleted by Google</li>
+  <li><strong>Firebase Crashlytics</strong>: crash reports are retained for <strong>90 days</strong> after the last occurrence</li>
+  <li><strong>Advertising data</strong>: managed by the advertising networks per their policies</li>
+</ul>
+<p>You can request earlier deletion of data associated with your installation by contacting us; we will forward the request to the relevant third-party processors and confirm completion.</p>
+
+<hr>
+
+<h2>7. Security</h2>
+<p>We rely on the security measures of Google Firebase and Google AdMob, both of which use industry-standard encryption in transit (TLS) and at rest. The App itself does not store sensitive personal data on your device.</p>
 <p>No method of transmission over the internet is fully secure; while we strive to protect your data, we cannot guarantee absolute security.</p>
 
 <hr>
