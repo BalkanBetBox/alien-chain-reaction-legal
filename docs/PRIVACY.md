@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** 2026-05-15
-**Last Updated:** 2026-05-15
+**Last Updated:** 2026-06-08
 
 This Privacy Policy describes how **Alien Chain Reaction** ("the App", "we", "us") collects, uses, and discloses information when you use our mobile game on Android or iOS.
 
@@ -33,7 +33,7 @@ If the App crashes or encounters an unrecoverable error, Google Firebase Crashly
 
 ### 1.3 Advertising identifier
 
-To show rewarded video advertisements (e.g. when you choose to watch an ad in exchange for an extra rocket), we use the Unity LevelPlay advertising SDK, which accesses your device's **Advertising ID** (AAID on Android, IDFA on iOS). This identifier:
+To show advertisements — primarily rewarded video (e.g. when you choose to watch an ad in exchange for an extra rocket), and occasional full-screen ads between games — we use **Google AdMob** (the Google Mobile Ads SDK), which accesses your device's **Advertising ID** (AAID on Android, IDFA on iOS). This identifier:
 
 - Is set by your operating system, not by us
 - Can be reset or disabled by you at any time in your device settings
@@ -67,7 +67,7 @@ The App uses the following third-party services. Each has its own privacy policy
 |---|---|---|---|
 | Firebase Analytics | Google LLC | Anonymous gameplay analytics | <https://policies.google.com/privacy> |
 | Firebase Crashlytics | Google LLC | Crash diagnostics | <https://policies.google.com/privacy> |
-| Unity LevelPlay (Ads Mediation) | Unity Technologies / ironSource | Rewarded video advertising | <https://www.is.com/legal/privacy-policy/> |
+| Google AdMob (Google Mobile Ads) | Google LLC | Rewarded and interstitial advertising | <https://policies.google.com/privacy> |
 | Google Play Services | Google LLC | Platform support, advertising ID | <https://policies.google.com/privacy> |
 
 ---
@@ -114,7 +114,7 @@ You can request earlier deletion of data associated with your installation by co
 
 ## 7. Security
 
-We rely on the security measures of Google Firebase and Unity LevelPlay, both of which use industry-standard encryption in transit (TLS) and at rest. The App itself does not store sensitive personal data on your device.
+We rely on the security measures of Google Firebase and Google AdMob, both of which use industry-standard encryption in transit (TLS) and at rest. The App itself does not store sensitive personal data on your device.
 
 No method of transmission over the internet is fully secure; while we strive to protect your data, we cannot guarantee absolute security.
 
